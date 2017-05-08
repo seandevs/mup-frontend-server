@@ -11,6 +11,7 @@ useradd $NGINX_USER || :
 # install dependencies
 apt-get update
 apt-get -y install libpcre3-dev libssl-dev openssl build-essential wget
+apt-get -y --only-upgrade install libssl1.0.0 openssl
 
 # start building process
 
