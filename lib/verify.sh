@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/opt/nginx/sbin/nginx -t
+/opt/nginx/sbin/nginx -t 
